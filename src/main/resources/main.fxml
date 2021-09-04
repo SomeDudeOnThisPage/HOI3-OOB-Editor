@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="buhlmann.me.oob.gui.ApplicationController">
+  <center>
+    <SplitPane dividerPositions="0.41604010025062654" focusTraversable="true" prefHeight="160.0" prefWidth="200.0">
+      <items>
+        <TreeView fx:id="oob" prefHeight="200.0" prefWidth="200.0" />
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+      </items>
+    </SplitPane>
+  </center>
+  <top>
+    <MenuBar>
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#menu_onFileLoad" text="Load..." />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </top>
+</BorderPane>

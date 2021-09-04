@@ -1,0 +1,7 @@
+regiment = {
+  type = militia_brigade # Militia
+  is_reserve = yes
+  experience = 5
+  name = "105. Landsturminfanterie"
+  historical_model = 0
+}

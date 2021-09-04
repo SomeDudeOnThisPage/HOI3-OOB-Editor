@@ -1,0 +1,76 @@
+theatre = {
+	location = 3026  # Wien
+	name = "k.u.k. Osterreiches Armeeoberkommando"
+
+	 regiment = {
+		type = hq_brigade
+		experience = 10
+		name = "k.u.k. Osterreiches Armeeoberkommando"
+		historical_model = 1
+		}
+
+	 division = {
+		location = 3429  # Lienz
+		name = "105. LstrInfanteriebrigaden"
+
+		 regiment = {
+			type = militia_brigade
+			is_reserve = yes
+			experience = 5
+			name = "105. Landsturminfanterie"
+			historical_model = 0
+			}
+		}
+
+	 division = {
+		location = 3630  # Trieste
+		name = "103. LstrInfanteriebrigaden"
+
+		 regiment = {
+			type = militia_brigade
+			is_reserve = yes
+			experience = 5
+			name = "103. Landsturminfanterie"
+			historical_model = 0
+			}
+		}
+
+	 division = {
+		location = 3633  # Zagreb
+		name = "102. LstrInfanteriebrigaden"
+
+		 regiment = {
+			type = militia_brigade
+			is_reserve = yes
+			experience = 5
+			name = "102. Landsturminfanterie"
+			historical_model = 0
+			}
+
+					 regiment = {
+      			type = militia_brigade
+      			is_reserve = yes
+      			experience = 5
+      			name = "102. Landsturminfanterie"
+      			historical_model = 0
+      			}
+		}
+}
+
+theatre = {
+	location = 3026  # Wien
+	name = "k.u.k. Osterreiches Armeeoberkommando"
+
+		 division = {
+  		location = 3630  # Trieste
+  		name = "103. LstrInfanteriebrigaden"
+
+  		 regiment = {
+  			type = militia_brigade
+  			is_reserve = yes
+  			experience = 5
+  			name = "103. Landsturminfanterie"
+  			historical_model = 0
+  			}
+  		}
+}
